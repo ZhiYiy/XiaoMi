@@ -1,10 +1,12 @@
 <template>
-    
+    <div>
+    footer
+    </div>
 </template>
 
 <script>
     export default {
-        name: "NavFooter"
+        name: "nav-footer"
     }
 </script>
 
