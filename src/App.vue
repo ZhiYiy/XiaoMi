@@ -11,9 +11,22 @@
   export default {
     name: 'app',
     mounted() {
-      // storage.setItem('abc',{a:1},'user')
-
-      storage.clear('a','user')
+      // TODO 本地
+      // this.axios.get('/mock/user/login.json')
+      // .then(res=>{
+      //   this.res = res
+      //   console.log(res )
+      // })
+      // TODO Easy Mock
+      this.axios.get('/mock/user/login.json')
+              .then(res=>{
+                this.res = res
+                console.log(res )
+              })
     }
   }
 </script>
+<style lang="scss">
+  @import './assets/scss/reset.scss';
+  @import './assets/scss/config.scss';
+</style>

@@ -39,6 +39,16 @@ API cookie没有特定的API  storage有对应的API
 打包的时候统一注入环境参数 统一管理环境 输出不同的版本包
 
 
+开发阶段 为了高效率 需要提前mock
+减少代码冗余 灵活插拔
+减少沟通 减少接口联调时间
+
+本地创建 json
+easy-mock平台
+集成Mock API
+
+import  是预编译加载
+
 
 
  */

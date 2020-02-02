@@ -7,6 +7,10 @@ import App from './App.vue'
 
 // TODO 接口错误拦截
 
+// const mock = false;
+// if(mock){
+//   require('./mock/api');
+// }
 // 根据前端的跨域方式做调整  /api/a/b => /a/b
 axios.defaults.baseURL = '/api'
 axios.defaults.timeout = 8000
